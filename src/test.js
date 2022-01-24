@@ -1,4 +1,4 @@
-﻿var animals = [];
+var animals = [];
 animals.push ("Dog");
 1
 animals.push ("Cat");
@@ -24,16 +24,12 @@ animals.length;
 3
 animals.push ("White bear");
 animals;
-(4) ['Monkey', 'Dog', 'Cat', 'White bear']0: "Monkey"1: "Dog"2: "Cat"3: "White bear"length: 4[[Prototype]]: Array(0)
 var lastAnimal = animals.shift;
 lastAnimal;
-? shift() { [native code] }
 var firstAnimal = animals.shift;
 lastAnimal;
-? shift() { [native code] }
 var firstAnimal = animals.shift;
 firstAnimal;
-? shift() { [native code] }
 animals;
 (4) ['Monkey', 'Dog', 'Cat', 'White bear']
 var firstAnimal = animals.shift ();
@@ -75,9 +71,12 @@ var landmarks = [];
 landmarks.push ("Мій будинок");
 landmarks.push ("Доріжка к дому");
 landmarks.push ("Мигаючий ліхтар");
-landmarks.push ("Протікаючий гідрант");…
+landmarks.push ("Протікаючий гідрант");
 Array(8) [ "Мій будинок", "Доріжка к дому", "Мигаючий ліхтар", "Протікаючий гідрант", "Пожежна станція", "Приют для котів", "Моя минула школа", "Дім подруги" ]
  
+console.log(landmarks)
+
+
 landmarks.pop (7);
 landmarks;
 Array(7) [ "Мій будинок", "Доріжка к дому", "Мигаючий ліхтар", "Протікаючий гідрант", "Пожежна станція", "Приют для котів", "Моя минула школа" ]
@@ -101,12 +100,14 @@ Array(3) [ "Мій будинок", "Доріжка к дому", "Мигаюч�
  
 landmarks.pop (2);
 landmarks;
-Array [ "Мій будинок", "Доріжка к дому" ]
+Array[ "Мій будинок", "Доріжка к дому" ]
  
 landmarks.pop (1);
 landmarks;
-Array [ "Мій будинок" ]
+Array[ "Мій будинок" ]
  
+console.log(Math.random());
+
 Math.random ();
 0.9362368296842922
 Math.random ();
@@ -117,3 +118,5 @@ Math.floor (4.977094283226993);
 4
 Math.floor (Math.random () * 4);
 1
+
+console.log("Done");
